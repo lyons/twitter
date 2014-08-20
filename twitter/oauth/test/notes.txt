@@ -1,0 +1,5 @@
+rfc-example-1.txt, rfc-example-2.txt, rfc-example-3.txt based on first three examples in RFC 5849,
+modified to reflect that oauth_version is always included as a parameter in this library, and that
+the parameters in the Authorization header are sorted alphabetically by the library
+
+twitter-docs-example.txt is the example from https://dev.twitter.com/docs/auth/creating-signature

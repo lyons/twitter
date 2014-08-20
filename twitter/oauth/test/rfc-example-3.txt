@@ -1,0 +1,1 @@
+Authorization: OAuth realm="Photos", oauth_consumer_key="dpf43f3p2l4k3l03", oauth_nonce="chapoH", oauth_signature="t7zsxfiGF3epo6fQjkYMhx08VE4%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="137131202", oauth_token="nnch734d00sl2jdk", oauth_version="1.0"

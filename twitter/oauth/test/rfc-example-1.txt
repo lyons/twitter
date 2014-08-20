@@ -1,0 +1,1 @@
+Authorization: OAuth realm="Photos", oauth_callback="http%3A%2F%2Fprinter.example.com%2Fready", oauth_consumer_key="dpf43f3p2l4k3l03", oauth_nonce="wIjqoS", oauth_signature="msrTmwtDEKqeVXeJaufuiXOpbJI%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="137131200", oauth_version="1.0"
