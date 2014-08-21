@@ -5,7 +5,7 @@
 (require racket/match)
 (require (only-in typed/net/url
                   [url URL]))
-(require "../oauth/oauth.rkt")
+(require oauth/types)
 (require "json.rkt")
 
 (require "colour.rkt"

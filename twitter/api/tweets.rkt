@@ -14,7 +14,7 @@
 (require (only-in typed/net/url
                   [url URL]
                   url->string))
-(require "../oauth/oauth.rkt")
+(require oauth/client)
 (require "../types/types.rkt"
          "../types/type-helpers.rkt"
          "../types/json.rkt")

@@ -16,7 +16,7 @@
                   url?
                   string->url
                   url->string))
-(require "../oauth/oauth.rkt")
+(require oauth/client)
 (require "../types/types.rkt"
          "../types/type-helpers.rkt")
 (require "../helpers.rkt")

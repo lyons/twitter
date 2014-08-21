@@ -2,9 +2,7 @@
 
 (provide (all-defined-out))
 
-(require (only-in "oauth/oauth.rkt"
-                  Client
-                  Token))
+(require oauth/types)
 (require "types/types.rkt"
          "types/json.rkt")
 

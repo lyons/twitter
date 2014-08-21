@@ -8,10 +8,7 @@
                   user/id))
 (require (only-in "../data/lists.rkt"
                   list/id))
-(require (only-in "../oauth/oauth.rkt"
-                  HTTP-Parameter
-                  HTTP-Parameter-List
-                  Param))
+(require oauth/types)
 
 ;; ---------------------------------------------------------------------------------------------------
 ;; Type helpers

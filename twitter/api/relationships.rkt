@@ -9,10 +9,10 @@
 (require racket/match
          (only-in racket/string
                   string-join))
-(require "../oauth/oauth.rkt"
-         "../types/json.rkt")
+(require oauth/client)
 (require "../types/types.rkt"
-         "../types/type-helpers.rkt")
+         "../types/type-helpers.rkt"
+         "../types/json.rkt")
 (require "../helpers.rkt")
 (require "private/api-helpers.rkt")
 (require (only-in "../data/relationships.rkt"

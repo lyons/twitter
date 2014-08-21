@@ -8,7 +8,7 @@
                   filename-extension))
 (require/typed net/base64
                [base64-encode (->* [Bytes] [Bytes] Bytes)])
-(require "../../oauth/oauth.rkt")
+(require oauth/types)
 (require "../../types/types.rkt"
          "../../types/json.rkt")
 

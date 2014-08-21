@@ -13,7 +13,7 @@
 (require racket/match
          (only-in racket/string
                   string-join))
-(require "../oauth/oauth.rkt")
+(require oauth/client)
 (require "../types/types.rkt"
          "../types/type-helpers.rkt"
          "../types/json.rkt")

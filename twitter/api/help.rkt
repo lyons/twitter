@@ -7,7 +7,7 @@
          application/rate-limit-status)
 
 (require racket/match)
-(require "../oauth/oauth.rkt")
+(require oauth/client)
 (require "../types/types.rkt"
          "../types/json.rkt")
 (require "../helpers.rkt")

@@ -1,7 +1,9 @@
 #lang typed/racket/base
 
-(require "oauth/oauth.rkt")
-(provide (all-from-out "oauth/oauth.rkt"))
+(require oauth/types
+         oauth/parameters)
+(provide (all-from-out oauth/types)
+         (all-from-out oauth/parameters))
 
 (require "api.rkt"
          "data.rkt"

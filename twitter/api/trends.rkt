@@ -5,7 +5,7 @@
          trends/closest)
 
 (require racket/match)
-(require "../oauth/oauth.rkt")
+(require oauth/client)
 (require "../types/types.rkt"
          "../types/type-helpers.rkt"
          "../types/json.rkt")
